@@ -187,14 +187,15 @@
    <div class="section__container">
     <h1>My work</h1>
     <h3>Projects</h3>
-    <div class="work__categoires">
-      <button class="category__btn active">All<span class="cateogry__count">2</span></button>
-      <button class="category__btn">Front-end<span class="cateogry__count">1</span></button>
-      <button class="category__btn">Back-end<span class="cateogry__count">1</span></button>
+    <div class="work__categories">
+      <button class="category__btn active" data-filter="*">All<span class="cateogry__count">2</span></button>
+      <button class="category__btn" data-filter="front-end">Front-end<span class="cateogry__count">1</span></button>
+      <button class="category__btn" data-filter="back-end">Back-end<span class="cateogry__count">1</span></button>
     </div>
 
     <div class="work__projects">
-      <a href="https://github.com/codestates/dev.log-server/wiki" class="project" target="blank">
+      <a href="https://github.com/codestates/dev.log-server/wiki" 
+      class="project" target="blank" data-type="back-end">
         <img class="project__img" src="imgs/projects/first__logo.png" alt="first project">
         <div class="project__description">
           <h3>First Project</h3>
@@ -202,7 +203,8 @@
         </div>
       </a>
     
-      <a href="https://github.com/codestates/Ebbinghaus-client/wiki" class="project" target="blank">
+      <a href="https://github.com/codestates/Ebbinghaus-client/wiki" 
+      class="project" target="blank" data-type="front-end">
         <img class="project__img" src="imgs/projects/final__logo.png" alt="final project">
         <div class="project__description">
           <h3>Final Project</h3>
